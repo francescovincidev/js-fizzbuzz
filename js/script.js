@@ -1,6 +1,7 @@
 let toPrint;
 
 // Ciclo
+let square = document.querySelector(".box");
 for (let i = 1; i <= 100; i++) {
 
     // Diamo alla vraiabile il valore di i
@@ -23,4 +24,8 @@ for (let i = 1; i <= 100; i++) {
 
     // Output
     console.log(toPrint);
+    square.innerHTML += `<div class=square> ${toPrint} </div>`;
 }
+
+
+
